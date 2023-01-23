@@ -7,23 +7,26 @@
   <title>Evan Hesketh</title>
   <link rel="stylesheet" href="app.css">
   <script src="app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="nav-bar">
-    <a href="index.html">Evan Hesketh</a>
+    <a href="index.html" class="nav-item">EVAN HESKETH</a>
     <ul class="nav-links">
-      <li class="nav-item"><a href="#about">About Me</a></li>
-      <li class="nav-item"><a href="#projects">Projects</a></li>
-      <li class="nav-item"><a href="#contact">Contact</a></li>
-      <li class="nav-item"><a href="#">Resume</a></li>
+      <li class="nav-item"><a href="#about">ABOUT</a></li>
+      <li class="nav-item"><a href="#projects">PROJECTS</a></li>
+      <li class="nav-item"><a href="#contact">CONTACT</a></li>
+      <li class="nav-item"><a href="#">RESUME</a></li>
     </ul>
   </nav>
   <section class="links">
     <ul>
-      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-      <li><a href="https://github.com/evanhesketh"><ion-icon name="logo-github"></ion-icon></a></li>
-      <li><a href="www.linkedin.com/in/evanhesketh"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-      <li><a href="mailto:evanhesketh@yahoo.ca"><ion-icon name="mail"></ion-icon></a></li>
+      <li class="nav-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li class="nav-item"><a href="https://github.com/evanhesketh"><ion-icon name="logo-github"></ion-icon></a></li>
+      <li class="nav-item"><a href="http://www.linkedin.com/in/evanhesketh"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li class="nav-item"><a href="mailto:evanhesketh@yahoo.ca"><ion-icon name="mail"></ion-icon></a></li>
     </ul>
   </section>
   <div class="content-container">
@@ -31,33 +34,34 @@
       <h1>Evan Hesketh</h1>
       <p>Software Engineer</p>
     </section>
+    <a id="about"></a>
     <section class="about fade-in">
-      <a id="about"></a>
-      <h2>About Me</h2>
-      <p> <img src="Evan_Hesketh_Headshot.png" height="300px" width="300px" alt="Headshot"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+      <h2>About Me <img src="Evan_Hesketh_Headshot.png" id='headshot' height="300px" width="300px" alt="Headshot"></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     </section>
+    <a id="projects"></a>
     <section class="projects fade-in">
-      <a id="projects"></a>
       <h2>Things I've Built</h2>
       <div class="project-list">
         <div>
-          <img src="#" alt="Personal Website">
+          <img src="coming_soon.jpg" alt="Personal Website">
           <p>Personal Website</p>
         </div>
         <div>
-          <img src="#" alt="Meme Generator">
+          <img src="coming_soon.jpg" alt="Meme Generator">
           <p>Meme Generator</p>
         </div>
         <div>
-          <img src="#" alt="Memory Game">
+          <img src="coming_soon.jpg" alt="Memory Game">
           <p>Memory Game</p>
         </div>
       </div>
     </section>
+    <a id="contact"></a>
     <section class="contact fade-in">
-      <a id="contact"></a>
-      <h2>Contact Me</h2>
-      <button><a href="mailto:evanhesketh@yahoo.ca">Contact</a></button>
+      <h2>Get In Touch</h2>
+      <button class="nav-item"><a href="mailto:evanhesketh@yahoo.ca">Contact</a></button>
     </section>
   </div>
   <footer>
