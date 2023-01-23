@@ -16,6 +16,16 @@ body {
 .about, .projects, .contact {
     width: 70%;
     margin-top: 100px;
+
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
 }
 
 .name {
@@ -34,6 +44,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin-left: 10px;
+    background-color: #f8f4ea;
 }
 
 .nav-links {
