@@ -4,11 +4,24 @@
 }
 
 body {
+    background-color: #f8f4ea;
+}
+
+.content-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    /* background-color: #131425; */
-    background-color: #f8f4ea;
+    align-items: center;
+}
+
+.about, .projects, .contact {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.name {
+    width: 70%;
+    height: 100vh;
+    margin-bottom: -100px;
 }
 
 ul {
@@ -16,9 +29,11 @@ ul {
 }
 .nav-bar {
     display: flex;
+    top: 0;
+    position: sticky;
     justify-content: space-between;
     align-items: center;
-
+    margin-left: 10px;
 }
 
 .nav-links {
@@ -30,41 +45,30 @@ a {
     color: black;
 }
 
-
-
-
 .nav-item {
     padding: 20px;
 }
 
-.name {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    color: #070D0D;
-    line-height: 60px;
-
-
+h1 {
+    font-size: 100px;
+    margin-top: 150px;
 }
 
-.name h1 {
-    position: relative;
-    top: 100px;
-    left: 200px;
-
-    font-size: 80px;
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .name p {
-    position: relative;
-    top: 250px;
-    left: 600px;
+    margin-top: 30px;
+    font-size: 50px;
+
 }
 
 .links {
     position: fixed;
     left: 10px;
-    top: 50%;
+    top: 100px;
 }
 
 .links a {
@@ -75,4 +79,32 @@ a {
 
 .links li {
     padding-bottom: 20px;
+}
+
+img {
+    float: right;
+    border-radius: 50%;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    border-style: none;
+    background-color: lightblue;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
 }
