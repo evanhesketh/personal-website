@@ -6,6 +6,7 @@
 
 body {
     background-color: #f8f4ea;
+    min-width: 600px;
 }
 
 .content-container {
@@ -17,7 +18,7 @@ body {
 .about, .projects, .contact {
     width: 70%;
     padding-top: 100px;
-
+    /* min-width: 600px; */
 }
 
 .fade-in {
@@ -63,22 +64,22 @@ a {
 
 .nav-bar .nav-item {
     padding: 20px;
-    font-size: 2.5vh;
+    font-size: 18px;
 }
 
 h1 {
-    font-size: 15vh;
+    font-size: 100px;
     margin-top: 150px;
 }
 
 h2 {
-    font-size: 7vh;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .name p {
     margin-top: 30px;
-    font-size: 8vh;
+    font-size: 50px;
 
 }
 
@@ -91,7 +92,7 @@ h2 {
 .links a {
     color: black;
     padding: 20px;
-    font-size: 3.0vh;
+    font-size: 20px;
 }
 
 .links li {
@@ -102,27 +103,26 @@ h2 {
     float: right;
     border-radius: 50%;
     margin-left: 5px;
-    max-width: 40vh;
+    max-width: 275px;
     width: 100%;
     height: auto;
 }
 
 .about p {
-    font-size: 3vh;
+    font-size: 18px;
     line-height: 30px;
 }
 
 button {
 
     background-color: #f8f4ea;
-    font-size: 2.5vh;
+    font-size: 18px;
     border-radius: 12px;
     padding: 10px;
 }
 
 .project-list {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 16px;
@@ -131,12 +131,20 @@ button {
 .project-list img {
     width: 100%;
     height: auto;
-    max-width: 40vh;
+    max-width: 250px;
     border: 3px solid black;
 }
 
 .small-text {
-    font-size: 2.3vh;
+    font-size: 16px;
+}
+
+.contact {
+    text-align: center;;
+}
+
+footer .small-text {
+    font-size: 14px;
 }
 
 footer {
