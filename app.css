@@ -6,7 +6,6 @@
 
 body {
     background-color: #f8f4ea;
-    min-width: 600px;
 }
 
 .content-container {
@@ -18,7 +17,6 @@ body {
 .about, .projects, .contact {
     width: 70%;
     padding-top: 100px;
-    /* min-width: 600px; */
 }
 
 .fade-in {
@@ -52,6 +50,10 @@ ul {
     display: flex;
 }
 
+.menu-icon {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -83,19 +85,19 @@ h2 {
 
 }
 
-.links {
+.social-links {
     position: fixed;
     left: 10px;
     top: 100px;
 }
 
-.links a {
+.social-links a {
     color: black;
     padding: 20px;
     font-size: 20px;
 }
 
-.links li {
+.social-links li {
     padding: 5px 0px 5px 0px;
 }
 

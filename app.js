@@ -14,5 +14,19 @@ window.onload = function() {
   }, options);
   const hidden = document.querySelectorAll('.fade-in');
   hidden.forEach(el => appearOnScroll.observe(el));
-}
+
+  let menu = document.querySelector('.menu-icon');
+
+  menu.addEventListener('click', function() {
+    let navLinks = document.querySelector('.nav-links');
+
+    if (navLinks.style.display === 'block') {
+      navLinks.style.display = 'none';
+    }
+    else {
+      navLinks.style.display = 'block';
+    }
+  });
+
+  }
 
